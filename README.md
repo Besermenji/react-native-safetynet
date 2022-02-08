@@ -6,15 +6,15 @@ Google provides an API to verify device integrity and detect harmful apps. See t
 
 ## Getting Started
 
-`$ npm install @bitwala/react-native-safetynet`
+`$ npm install @besermenji/react-native-safetynet`
 
 or
 
-`$ yarn add @bitwala/react-native-safetynet`
+`$ yarn add @besermenji/react-native-safetynet`
 
 ### Mostly Automatic Installation
 
-`$ react-native link @bitwala/react-native-safetynet`
+`$ react-native link @besermenji/react-native-safetynet`
 
 ### Manual installation
 
@@ -22,23 +22,23 @@ or
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
 
-- Add `import com.bitwala.safetynet.RNSafetyNetPackage;` to the imports at the top of the file
+- Add `import com.besermenji.safetynet.RNSafetyNetPackage;` to the imports at the top of the file
 - Add `new RNSafetyNetPackage()` to the list returned by the `getPackages()` method
 
 2. Append the following lines to `android/settings.gradle`:
    ```
-   include ':@bitwala/react-native-safetynet'
-   project(':@bitwala/react-native-safetynet').projectDir = new File(rootProject.projectDir, 	'../node_modules/@bitwala/react-native-safetynet/android')
+   include ':@besermenji/react-native-safetynet'
+   project(':@besermenji/react-native-safetynet').projectDir = new File(rootProject.projectDir, 	'../node_modules/@besermenji/react-native-safetynet/android')
    ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
    ```
-     implementation project(':@bitwala/react-native-safetynet')
+     implementation project(':@besermenji/react-native-safetynet')
    ```
 
 ## Usage
 
 ```javascript
-import RNSafetyNetClient from '@bitwala/react-native-safetynet';
+import RNSafetyNetClient from '@besermenji/react-native-safetynet';
 
 // STEP 1: Send nonce request to server with device unique id
 const deviceId =

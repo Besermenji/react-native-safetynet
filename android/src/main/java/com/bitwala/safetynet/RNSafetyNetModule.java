@@ -1,7 +1,7 @@
 
-package com.bitwala.safetynet;
+package com.besermenji.safetynet;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.app.Activity;
 import android.util.Base64;
 
@@ -19,7 +19,6 @@ import com.google.android.gms.safetynet.SafetyNetApi;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 
-import java.nio.charset.StandardCharsets;
 import java.lang.IllegalArgumentException;
 
 public class RNSafetyNetModule extends ReactContextBaseJavaModule {

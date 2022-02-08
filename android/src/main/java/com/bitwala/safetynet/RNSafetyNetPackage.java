@@ -1,5 +1,5 @@
 
-package com.bitwala.safetynet;
+package com.besermenji.safetynet;
 
 import java.util.Arrays;
 import java.util.Collections;
