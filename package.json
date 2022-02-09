@@ -1,6 +1,6 @@
 {
   "name": "@besermenji/react-native-safetynet",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": "https://github.com/besermenji/react-native-safetynet.git",
