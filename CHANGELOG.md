@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/Besermenji/react-native-safetynet/compare/v1.1.0...v1.1.1) (2022-02-09)
+
+
+### Miscellaneous
+
+* unpin node-fetch dependency ([bf9c0e8](https://www.github.com/Besermenji/react-native-safetynet/commit/bf9c0e8ed4f68515a04a23d9d271791ad6d8a8be))
+
 ## [1.1.0](https://www.github.com/besermenji/react-native-safetynet/compare/v1.0.1...v1.1.0) (2021-01-12)
 
 
