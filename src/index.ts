@@ -61,7 +61,8 @@ const requestNonce: RequestNonce = async (args) =>
 const sendAttestationRequest: AttestationRequest = async (nonce, apiKey) => {
   const attestationResult: AttestationResult = { jws: null };
 
-  const isPlayServicesAvailable: boolean = await RNSafetyNet.isPlayServicesAvailable();
+  const isPlayServicesAvailable: boolean =
+    await RNSafetyNet.isPlayServicesAvailable();
   if (!isPlayServicesAvailable) {
     attestationResult.error = 'Google Play Service is not available!';
   }
@@ -96,7 +97,8 @@ const verifyAttestationResult: VerifyAttestation = async (args) =>
 const sendRecaptchaRequest: ReCaptchaRequest = async (apiKey) => {
   const recaptchaResult: ReCaptchaResult = { token: null };
 
-  const isPlayServicesAvailable: boolean = await RNSafetyNet.isPlayServicesAvailable();
+  const isPlayServicesAvailable: boolean =
+    await RNSafetyNet.isPlayServicesAvailable();
   if (!isPlayServicesAvailable) {
     recaptchaResult.error = 'Google Play Service is not available!';
   }
